@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "../lufa/",
+                "/usr/lib/avr/include/",
+                "/usr/lib/var/include/avr/"    
+            ],
+            "defines": [
+                "MCU=at90usb162",
+                "ARCH=ARCH_AVR8",
+                "BOARD=BOARD_MINIMUS",
+                "USB_CAN_BE_DEVICE",
+                "__AVR_AT90USB162__"
+            ],
+            "compilerPath": "/usr/bin/avr-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
